@@ -1,6 +1,8 @@
 docker stop eventstore-node
 docker rm eventstore-node
 
+docker pull eventstore/eventstore
+
 docker kill location
 docker kill proximity
 docker kill member
